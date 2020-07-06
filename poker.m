@@ -1,9 +1,3 @@
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
 
 clc; 
 clear;
