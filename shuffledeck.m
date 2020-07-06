@@ -1,13 +1,6 @@
 function shuffle = shuffledeck (deck)
 %this function takes in a deck and randomizes the order of cards in it
 
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
-
 if isfield(deck, 'Value') && isfield(deck, 'Suit') && isfield(deck, 'Score')
     if numel(deck) >= 10
         for ii = 1:numel(deck)
