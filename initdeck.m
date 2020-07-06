@@ -1,13 +1,6 @@
 function deck = initdeck(numDecks)
 % This function will create a number of decks requested by the user
 
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
-
 %validate
 if isscalar(numDecks) && numDecks > 0 ...
         && isnumeric(numDecks) && floor(numDecks) == numDecks
