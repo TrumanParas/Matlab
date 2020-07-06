@@ -1,13 +1,6 @@
 function rank = calchand (hand)
 %this function calculates the value of a givenhand
 
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
-
 if isfield(hand,'Suit') && isfield(hand,'Value') && isfield(hand,'Score') && numel(hand) == 5
     %set starting rank to be zero
     rank = 0;
