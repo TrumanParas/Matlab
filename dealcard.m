@@ -1,14 +1,6 @@
 function [topCard, uncelledDeck] = dealcard(deck)
 %this function defines the first card in the deck, eliminates it the deck, and creates a new object that holds the rest of the cards
 
-
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
-
 if isfield(deck, 'Value') && isfield(deck, 'Suit') && isfield(deck, 'Score') %validate
     if numel(deck) >= 10
         
