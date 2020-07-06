@@ -1,13 +1,6 @@
 function [] = printcard (card)
 %this funtion displays a card
 
-%{
-Truman Paras
-ITP 168 Spring 2020
-Homework 7
-tparas@usc.edu
-%}
-
 %validate
 if isfield(card, 'Value') && isfield(card, 'Suit') && isfield(card, 'Score')
     if numel(card) == 1
